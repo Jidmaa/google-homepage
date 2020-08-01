@@ -72,6 +72,7 @@ flex-direction: row-reverse;
     padding: 8px 19px;
     border: 1px solid #4285f4;
     background: -moz-linear-gradient(top,#4387fd,#4683ea);
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
     color: white;
     font-size: 14px;
   } 
