@@ -1,0 +1,107 @@
+body, html {
+    height: 100%;
+    display: grid;
+  }
+  .center-me  { /* thing to center */
+    margin: auto;
+    display: grid; 
+    grid-template-areas: "image image" "jidma jidma" "search search";
+    grid-gap: 15px;
+    position: relative;
+    top: -150px;
+  }
+  .image {
+    grid-area: image;
+    width: 18vw;
+    align-self: center;
+    justify-self: center;
+}
+  .jidma {
+      grid-area: jidma;
+      width: 28vw;
+      border-radius: 20px;
+      height: 25px;
+  }
+  .search {
+      grid-area: search;
+      justify-self: center;
+
+  }
+  .search button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+  }
+  input {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 25px;
+    height: 35px;
+    width: 35vw;
+margin: 0 auto;
+  }
+  ul {
+    list-style-type: none;
+    
+    display: flex;
+flex-direction: row-reverse;
+  }
+  
+  li a {
+      color: black;
+      display: block;
+      padding: 8px 8px;
+      text-decoration: none;
+  }
+  li button 
+    {
+    display: block;
+    padding: 8px 19px;
+    border: 1px solid #4285f4;
+    background: -moz-linear-gradient(top,#4387fd,#4683ea);
+    color: white;
+    font-size: 14px;
+  } 
+  .signin {
+      text-decoration-color: white;
+  }
+  .footer {
+    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    color: #505050;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 5px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-top: 1px solid #e4e4e4;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    display: flex;
+}
+.footer ul {
+ height: 40px;
+}
+.footer li {
+    padding: 15px;
+}
+.right {
+    justify-self:left;
+}
